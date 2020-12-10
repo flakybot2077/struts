@@ -51,6 +51,7 @@ public class JacksonXmlHandlerTest extends XWorkTestCase {
     }
 
     public void testObjectToXml() throws Exception {
+        System.out.println("test known flaky!");
         // given
         SimpleBean obj = new SimpleBean();
         obj.setName("Jan");
