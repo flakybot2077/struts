@@ -26,6 +26,7 @@ script:
         ./mvnw test -DskipAssembly -Dupdate-impact -B;
       fi;
     fi;
+  - sh ./nondex.sh
 
 cache:
   directories:
